@@ -25,7 +25,7 @@
         <th>Details</th>
         <th style="width: 280px">Action</th>
     </tr>
-    {{-- products is the variable holding the database table's data --}}
+    {{-- products is the variable holding the  database table's data --}}
     @foreach ($products as $product)
     <tr>
         <td>{{ $product->id }}</td>
