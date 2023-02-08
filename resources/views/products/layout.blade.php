@@ -6,7 +6,7 @@
 </head>
 </head>
 <body>
-    <h1>Laravel 8 CRUD APP</h1>
+    <h1>Laravel  8 CRUD APP</h1>
     <div class="container">
         <br>
         @yield('content')

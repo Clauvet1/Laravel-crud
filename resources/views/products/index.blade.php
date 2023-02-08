@@ -25,14 +25,14 @@
         <th>Details</th>
         <th style="width: 280px">Action</th>
     </tr>
-    {{-- products is the variable holding the database table's data --}}
+    {{-- products is the variable holding the  database table's data --}}
     @foreach ($products as $product)
     <tr>
         <td>{{ $product->id }}</td>
         <td>{{ $product->name }}</td>
         <td>{{ $product->detail }}</td>
         <td>
-            {{-- products here is the name specified in route/wed used to access the webapp its used to link the btns to th controllers --}}
+            {{-- products here is the name specified in route/wed used to access  the webapp its used to link the btns to th controllers --}}
             <form action="{{ route('products.destroy',$product->id) }}" method="POST">
                 <a href="{{ route('products.show',$product->id) }}" class="btn btn-info">Show</a>
                 <a href="{{ route('products.edit',$product->id) }}" class="btn btn-primary">Edit</a>
