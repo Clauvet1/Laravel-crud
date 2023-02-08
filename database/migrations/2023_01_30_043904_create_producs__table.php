@@ -22,7 +22,7 @@ class CreateProducsTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migration
      *
      * @return void
      */

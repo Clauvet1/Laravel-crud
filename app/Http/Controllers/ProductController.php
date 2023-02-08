@@ -66,7 +66,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified resource .
      *
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
